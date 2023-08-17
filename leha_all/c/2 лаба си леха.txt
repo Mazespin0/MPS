@@ -1,0 +1,68 @@
+#define F_CPU 8000000UL
+#include <avr/io.h>
+#include <util/delay.h>
+#include <avr/interrupt.h>
+
+int x;
+
+ISR(TIMER1_OVF_vect)
+{
+    if (PORTD == 0b00000001)
+    {
+        PORTD = 0b00000000;
+    }
+    else
+    {
+        PORTD = 0b00000001;
+    }
+
+    TCNT1H = x;
+    TCNT1L = x;
+}
+
+int main(void)
+{
+    x = 0xF0;
+
+    DDRD = 0b00000001;        //настройка порта для светодиода
+    PORTD = 0b00000001;
+
+    DDRB = 0x00;        //настройка порта для кнопок
+
+    TCCR1B = 0b00000101;//настройка таймера
+    TIMSK = 0b00000100;
+    TCNT1H = 0xF0;
+    TCNT1L = 0xF0;
+
+    sei();                //разрешение прерываний
+
+    while(1)
+    {
+        _delay_ms(120);
+
+        if(PINB == 0x02)
+        {
+            if (x == 0xFE)
+            {
+                x = 0xE0;
+            }
+            else
+            {
+                x++;
+            }
+        }
+
+        if(PINB == 0x04)
+        {
+            if(x == 0xE0)
+            {
+                x = 0xFE;
+            }
+            else
+            {
+                x--;
+            }
+
+        }
+    }
+}

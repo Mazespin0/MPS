@@ -1,0 +1,141 @@
+.include "m16def.inc"
+.def temp = r16
+.def sys = r17
+.def speed = r18
+.def led = r19
+.def control = r20
+.equ Bitrate = 9600
+.equ BAUD = 8000000/(16*Bitrate)-1
+
+.cseg
+
+.org 0
+jmp Reset
+
+.org $010
+jmp TIM1_OVF
+
+.org $016
+jmp USART_RXC
+
+
+Reset:
+ldi temp, high(RAMEND)
+out SPH, temp
+ldi temp, low(RAMEND)
+out SPL, temp
+
+ldi temp, high(BAUD)
+out UBRRH, temp
+ldi temp, low(BAUD)
+out UBRRL, temp
+
+ldi temp, 0b10011000
+out UCSRB, temp
+ldi temp, 0b10000110
+out UCSRC, temp
+
+ldi speed, 0xEE
+
+ldi temp, 0b00000101
+out TCCR1B, temp
+
+ldi temp, 0b00000100
+out TIMSK, temp
+out TIFR, temp
+
+ldi temp, 0xf0
+out TCNT1H, temp
+out TCNT1L, temp
+
+ldi temp, 0xFF
+out DDRA, temp
+
+ldi sys, 0b00000001
+out PORTA, sys
+sei
+
+Proga:
+rjmp Proga
+
+USART_RXC:
+cli
+in sys, UDR
+cpi sys, 0x31
+breq speed_up
+cpi sys, 0x32
+breq speed_down
+cpi sys, 0x33
+breq _control_r
+cpi sys, 0x34
+breq _control_f
+
+TIM1_OVF:
+cli
+cpi led, 0b00000001
+breq LED1
+cpi led, 0b00000010
+breq LED2
+cpi led, 0b00000100
+breq LED3
+
+LED1:
+ldi led, 0b00000010
+sbrc  control, 0x00
+ldi led, 0b00000100
+out PORTA, led
+rjmp Vix
+
+LED2:
+ldi led, 0b00000100
+sbrc  control, 0x00
+ldi led, 0b00000001
+out PORTA, led
+rjmp Vix
+
+LED3:
+ldi led, 0b00000001
+sbrc  control, 0x00
+ldi led, 0b00000010
+out PORTA, led
+rjmp Vix
+
+speed_up:
+cpi speed, 0xFE
+brne speed_up2
+ldi speed, 0xE0
+sei
+rjmp Proga
+
+speed_up2:
+inc speed
+sei
+rjmp Proga
+
+speed_down:
+cpi speed, 0xE0
+brne speed_down2
+sei
+rjmp  Proga
+
+speed_down2:
+dec speed
+sei
+rjmp Proga
+
+_control_r:
+ldi control, 0x01
+sei
+rjmp Proga
+
+_control_f:
+ldi control, 0x00
+sei
+rjmp Proga
+
+
+Vix:
+out TCNT1H, speed
+out TCNT1L, speed
+sei
+reti

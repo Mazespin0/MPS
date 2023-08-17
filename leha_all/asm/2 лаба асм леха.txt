@@ -1,0 +1,102 @@
+.include "m16def.inc"
+.def temp = r16
+.def sys = r17
+.def temp1 = r18
+.def speed = r19
+.def speed1 = r20
+.org 0
+jmp Reset
+.org $010
+jmp TIM1_OVF ; Timer1 Overflow Handler
+
+
+Reset:
+ldi speed, 0xEE
+ldi temp, high(RAMEND)
+out sph, temp
+ldi temp, low(RAMEND)
+out spl, temp
+ldi temp, 0xff
+out DDRD, temp
+ldi temp, 0
+out DDRB, temp
+ldi temp, 0x06
+out PORTB, temp
+ldi temp, 0b00000101
+out TCCR1B, temp
+ldi temp, 0b00000100
+out TIMSK, temp
+out TIFR, temp
+ldi temp, 0xf0
+out TCNT1H, temp
+out TCNT1L, temp
+ldi sys, 0b00000001
+ldi r18, 0
+sei
+
+Proga:
+clr temp1
+rcall knop
+in temp1, PINB
+cpi temp1, 0x02
+breq speed_up
+clr temp1
+rcall knop
+in temp1, PINB
+cpi temp1, 0x04
+breq speed_down
+rjmp Proga
+
+TIM1_OVF:
+cli
+cpi sys, 0b00000000
+breq LED1
+cpi sys, 0b00000001
+breq LED_OFF
+
+Vix:
+out TCNT1H, speed
+out TCNT1L, speed
+sei
+reti
+
+LED1:
+ldi sys, 0b00000001
+out PORTD, sys
+rjmp Vix
+
+LED_OFF:
+ldi sys, 0b00000000
+out PORTD, sys
+rjmp Vix
+
+speed_up:
+cpi speed, 0xFE
+brne speed_up2
+ldi speed, 0xE0
+rjmp Proga
+
+speed_up2:
+inc speed
+rjmp Proga
+
+speed_down:
+cpi speed, 0xE0
+brne speed_down2
+rjmp Proga
+
+speed_down2:
+dec speed
+rjmp Proga
+
+knop:
+          ldi  R21, $08
+WGLOOP0:  ldi  R22, $C6
+WGLOOP1:  ldi  R23, $C9
+WGLOOP2:  dec  R23
+          brne WGLOOP2
+          dec  R22
+          brne WGLOOP1
+          dec  R21
+          brne WGLOOP0
+          ret

@@ -1,0 +1,68 @@
+.include "m16def.inc"
+.def temp = r16
+.def speed = r17
+.def sys = r18
+.def const = r19
+.equ Bitrate = 9600
+.equ BAUD = 8000000/(16*Bitrate)-1
+
+
+.cseg
+
+.org 0
+jmp Reset
+
+.org $016
+jmp USART_RXC
+
+Reset:
+ldi temp, high(RAMEND)
+out sph, temp
+ldi temp, low(RAMEND)
+out spl, temp
+
+ldi temp, high(BAUD)
+out UBRRH, temp
+ldi temp, low(BAUD)
+out UBRRL, temp
+
+ldi temp, 0b10011000
+out UCSRB, temp
+ldi temp, 0b10000110
+out UCSRC, temp
+
+ldi temp, 0b00001000
+out DDRB, temp
+
+ldi temp, 0b01101011
+out TCCR0, temp
+
+ldi speed, 0x80
+out OCR0, temp
+
+ldi const, 0x0A
+
+sei
+
+Proga:
+rjmp Proga
+
+USART_RXC:
+cli
+in sys, UDR
+cpi sys, 0x3D
+breq speed_up
+cpi sys, 0x2D
+breq speed_down
+
+speed_up:
+add speed, const
+out ocr0, speed
+sei
+reti
+
+speed_down:
+sub speed, const
+out ocr0, speed
+sei
+reti

@@ -1,0 +1,46 @@
+#include <avr/io.h>
+#include <avr/interrupt.h>
+
+int z;
+int y;
+int x;
+
+ISR(USART_RXC_vect)
+{
+    y = UDR;
+    x = OCR0;
+
+    if(y == 0x3D)
+    {
+        x = x + 10;
+    }
+    if(y == 0x2D)
+    {
+        x = x - 10;
+    }
+
+    OCR0 = x;
+}
+
+
+int main(void)
+{
+
+    DDRB = 0b00001000;        //настройка порта для кнопок
+
+    TCCR0 = 0b01101011;        //настройка FastPWM
+    OCR0 = 0x80;
+
+    UBRRL = 0x33;            //настройка UART
+    UBRRH = 0x00;
+    UCSRB = 0b10011000;
+    UCSRC = 0b10000110;
+    z = 0xFF;
+
+    sei();                //разрешение прерываний
+
+    while(1)
+    {
+
+    }
+}

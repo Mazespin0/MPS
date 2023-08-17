@@ -1,0 +1,111 @@
+#define F_CPU 8000000UL
+#include <avr/io.h>
+#include <avr/interrupt.h>
+
+int z;
+int y;
+int x;
+
+ISR(USART_RXC_vect)
+{
+    y = UDR;
+    if(y == 0x31)
+    {
+        if(x == 0xFE)
+        {
+            x = 0xE0;
+        }
+        else
+        {
+            x++;
+        }
+    }
+
+    if(y == 0x32)
+    {
+        if(x == 0xE0)
+        {
+            x = 0xFE;
+        }
+        else
+        {
+            x--;
+        }
+    }
+    if(y == 0x33)
+    {
+        z = 0x01;
+    }
+    if(y == 0x34)
+    {
+        z = 0x00;
+    }
+}
+
+ISR(TIMER1_OVF_vect)
+{
+    if(PORTA == 0b00000001)
+    {
+        if(z == 0x00)
+        {
+            PORTA = 0b00000100;
+        }
+        else
+        {
+            PORTA = 0b00000010;
+        }
+    }
+    else if(PORTA == 0b00000010)
+    {
+        if(z == 0x00)
+        {
+            PORTA = 0b00000001;
+        }
+        else
+        {
+            PORTA = 0b00000100;
+        }
+    }
+    else if(PORTA == 0b00000100)
+    {
+        if(z == 0x00)
+        {
+            PORTA = 0b00000010;
+        }
+        else
+        {
+            PORTA = 0b00000001;
+        }
+    }
+
+    TCNT1H = x;
+    TCNT1L = x;
+}
+
+int main(void)
+{
+
+    DDRA = 0b00000111;        //настройка порта для светодиода
+    PORTA = 0b00000001;
+
+    DDRB = 0x00;        //настройка порта для кнопок
+
+    TCCR1B = 0b00000101;//настройка таймера
+    TIMSK = 0b00000100;
+    TCNT1H = 0xF0;
+    TCNT1L = 0xF0;
+    x = 0xF0;
+
+    UBRRL = 0x33;            //настройка UART
+    UBRRH = 0x00;
+    UCSRB = 0b10011000;
+    UCSRC = 0b10000110;
+    z = 0xFF;
+
+    sei();                //разрешение прерываний
+
+    while(1)
+    {
+
+    }
+}
