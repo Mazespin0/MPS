@@ -1,0 +1,42 @@
+<ASSEMBLER_INFO>
+ <VERSION>2.1.51</VERSION>
+ <DEVICE>"ATmega16"</DEVICE>
+ <WORKING_DIR>D:\Coding\Assembler\MPS\dasha_2\dasha_2\Debug</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>C:\Program Files (x86)\Atmel\AVR Studio 5.1\extensions\Atmel\AVRAssembler\2.1.51.17\AvrAssembler/Include</DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>D:\Coding\Assembler\MPS\dasha_2\dasha_2\dasha_2.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+  <FILE>C:\Program Files (x86)\Atmel\AVR Studio 5.1\extensions\Atmel\AVRAssembler\2.1.51.17\AvrAssembler/Include\m16def.inc</FILE>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>D:\Coding\Assembler\MPS\dasha_2\dasha_2\Debug/dasha_2.obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>D:\Coding\Assembler\MPS\dasha_2\dasha_2\Debug/dasha_2.hex</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>D:\Coding\Assembler\MPS\dasha_2\dasha_2\Debug\dasha_2.map</FILE>
+  <FILE>D:\Coding\Assembler\MPS\dasha_2\dasha_2\Debug\dasha_2.lss</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <Program><FILE>D:\Coding\Assembler\MPS\dasha_2\dasha_2\dasha_2.asm</FILE><LINE>17</LINE></Program>
+  <Delay20><FILE>D:\Coding\Assembler\MPS\dasha_2\dasha_2\dasha_2.asm</FILE><LINE>84</LINE></Delay20>
+  <st2><FILE>D:\Coding\Assembler\MPS\dasha_2\dasha_2\dasha_2.asm</FILE><LINE>26</LINE></st2>
+  <error><FILE>D:\Coding\Assembler\MPS\dasha_2\dasha_2\dasha_2.asm</FILE><LINE>68</LINE></error>
+  <st3><FILE>D:\Coding\Assembler\MPS\dasha_2\dasha_2\dasha_2.asm</FILE><LINE>32</LINE></st3>
+  <st4><FILE>D:\Coding\Assembler\MPS\dasha_2\dasha_2\dasha_2.asm</FILE><LINE>38</LINE></st4>
+  <st5><FILE>D:\Coding\Assembler\MPS\dasha_2\dasha_2\dasha_2.asm</FILE><LINE>44</LINE></st5>
+  <st6><FILE>D:\Coding\Assembler\MPS\dasha_2\dasha_2\dasha_2.asm</FILE><LINE>50</LINE></st6>
+  <st7><FILE>D:\Coding\Assembler\MPS\dasha_2\dasha_2\dasha_2.asm</FILE><LINE>56</LINE></st7>
+  <st8><FILE>D:\Coding\Assembler\MPS\dasha_2\dasha_2\dasha_2.asm</FILE><LINE>62</LINE></st8>
+  <_main_><FILE>D:\Coding\Assembler\MPS\dasha_2\dasha_2\dasha_2.asm</FILE><LINE>76</LINE></_main_>
+  <Delay><FILE>D:\Coding\Assembler\MPS\dasha_2\dasha_2\dasha_2.asm</FILE><LINE>99</LINE></Delay>
+  <D20loop2><FILE>D:\Coding\Assembler\MPS\dasha_2\dasha_2\dasha_2.asm</FILE><LINE>86</LINE></D20loop2>
+  <D20loop1><FILE>D:\Coding\Assembler\MPS\dasha_2\dasha_2\dasha_2.asm</FILE><LINE>88</LINE></D20loop1>
+  <D20loop0><FILE>D:\Coding\Assembler\MPS\dasha_2\dasha_2\dasha_2.asm</FILE><LINE>90</LINE></D20loop0>
+  <Dloop2><FILE>D:\Coding\Assembler\MPS\dasha_2\dasha_2\dasha_2.asm</FILE><LINE>101</LINE></Dloop2>
+  <Dloop1><FILE>D:\Coding\Assembler\MPS\dasha_2\dasha_2\dasha_2.asm</FILE><LINE>103</LINE></Dloop1>
+  <Dloop0><FILE>D:\Coding\Assembler\MPS\dasha_2\dasha_2\dasha_2.asm</FILE><LINE>105</LINE></Dloop0>
+ </LABELS>
+</ASSEMBLER_INFO>

@@ -1,0 +1,48 @@
+<ASSEMBLER_INFO>
+ <VERSION>2.1.51</VERSION>
+ <DEVICE>"ATmega16"</DEVICE>
+ <WORKING_DIR>D:\Coding\MPS\asm\laba_2\laba_2\Debug</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>C:\Program Files (x86)\Atmel\AVR Studio 5.1\extensions\Atmel\AVRAssembler\2.1.51.17\AvrAssembler/Include</DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>D:\Coding\MPS\asm\laba_2\laba_2\laba_2.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+  <FILE>C:\Program Files (x86)\Atmel\AVR Studio 5.1\extensions\Atmel\AVRAssembler\2.1.51.17\AvrAssembler/Include\m16def.inc</FILE>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>D:\Coding\MPS\asm\laba_2\laba_2\Debug/laba_2.obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>D:\Coding\MPS\asm\laba_2\laba_2\Debug/laba_2.hex</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>D:\Coding\MPS\asm\laba_2\laba_2\Debug\laba_2.map</FILE>
+  <FILE>D:\Coding\MPS\asm\laba_2\laba_2\Debug\laba_2.lss</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <_main><FILE>D:\Coding\MPS\asm\laba_2\laba_2\laba_2.asm</FILE><LINE>20</LINE></_main>
+  <_both_lost><FILE>D:\Coding\MPS\asm\laba_2\laba_2\laba_2.asm</FILE><LINE>53</LINE></_both_lost>
+  <_player1_wins><FILE>D:\Coding\MPS\asm\laba_2\laba_2\laba_2.asm</FILE><LINE>65</LINE></_player1_wins>
+  <_player2_wins><FILE>D:\Coding\MPS\asm\laba_2\laba_2\laba_2.asm</FILE><LINE>91</LINE></_player2_wins>
+  <_1k_ms><FILE>D:\Coding\MPS\asm\laba_2\laba_2\laba_2.asm</FILE><LINE>115</LINE></_1k_ms>
+  <_but><FILE>D:\Coding\MPS\asm\laba_2\laba_2\laba_2.asm</FILE><LINE>44</LINE></_but>
+  <_250_ms><FILE>D:\Coding\MPS\asm\laba_2\laba_2\laba_2.asm</FILE><LINE>150</LINE></_250_ms>
+  <_blink1><FILE>D:\Coding\MPS\asm\laba_2\laba_2\laba_2.asm</FILE><LINE>81</LINE></_blink1>
+  <_1_led><FILE>D:\Coding\MPS\asm\laba_2\laba_2\laba_2.asm</FILE><LINE>72</LINE></_1_led>
+  <_50_ms><FILE>D:\Coding\MPS\asm\laba_2\laba_2\laba_2.asm</FILE><LINE>128</LINE></_50_ms>
+  <_blink2><FILE>D:\Coding\MPS\asm\laba_2\laba_2\laba_2.asm</FILE><LINE>106</LINE></_blink2>
+  <_2_led><FILE>D:\Coding\MPS\asm\laba_2\laba_2\laba_2.asm</FILE><LINE>98</LINE></_2_led>
+  <_1k_loop0><FILE>D:\Coding\MPS\asm\laba_2\laba_2\laba_2.asm</FILE><LINE>117</LINE></_1k_loop0>
+  <_1k_loop1><FILE>D:\Coding\MPS\asm\laba_2\laba_2\laba_2.asm</FILE><LINE>118</LINE></_1k_loop1>
+  <_1k_loop2><FILE>D:\Coding\MPS\asm\laba_2\laba_2\laba_2.asm</FILE><LINE>119</LINE></_1k_loop2>
+  <_50_loop0><FILE>D:\Coding\MPS\asm\laba_2\laba_2\laba_2.asm</FILE><LINE>130</LINE></_50_loop0>
+  <_50_loop1><FILE>D:\Coding\MPS\asm\laba_2\laba_2\laba_2.asm</FILE><LINE>131</LINE></_50_loop1>
+  <_50_loop2><FILE>D:\Coding\MPS\asm\laba_2\laba_2\laba_2.asm</FILE><LINE>132</LINE></_50_loop2>
+  <_20_ms><FILE>D:\Coding\MPS\asm\laba_2\laba_2\laba_2.asm</FILE><LINE>141</LINE></_20_ms>
+  <_20_loop0><FILE>D:\Coding\MPS\asm\laba_2\laba_2\laba_2.asm</FILE><LINE>143</LINE></_20_loop0>
+  <_20_loop1><FILE>D:\Coding\MPS\asm\laba_2\laba_2\laba_2.asm</FILE><LINE>144</LINE></_20_loop1>
+  <_250_loop0><FILE>D:\Coding\MPS\asm\laba_2\laba_2\laba_2.asm</FILE><LINE>152</LINE></_250_loop0>
+  <_250_loop1><FILE>D:\Coding\MPS\asm\laba_2\laba_2\laba_2.asm</FILE><LINE>153</LINE></_250_loop1>
+  <_250_loop2><FILE>D:\Coding\MPS\asm\laba_2\laba_2\laba_2.asm</FILE><LINE>154</LINE></_250_loop2>
+ </LABELS>
+</ASSEMBLER_INFO>

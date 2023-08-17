@@ -1,0 +1,43 @@
+<ASSEMBLER_INFO>
+ <VERSION>2.1.51</VERSION>
+ <DEVICE>"ATmega16"</DEVICE>
+ <WORKING_DIR>D:\Coding\MPS\asm\toha_laba_3\toha_laba_3\Debug</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>C:\Program Files (x86)\Atmel\AVR Studio 5.1\extensions\Atmel\AVRAssembler\2.1.51.17\AvrAssembler/Include</DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>D:\Coding\MPS\asm\toha_laba_3\toha_laba_3\toha_laba_3.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+  <FILE>C:\Program Files (x86)\Atmel\AVR Studio 5.1\extensions\Atmel\AVRAssembler\2.1.51.17\AvrAssembler/Include\m16def.inc</FILE>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>D:\Coding\MPS\asm\toha_laba_3\toha_laba_3\Debug/toha_laba_3.obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>D:\Coding\MPS\asm\toha_laba_3\toha_laba_3\Debug/toha_laba_3.hex</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>D:\Coding\MPS\asm\toha_laba_3\toha_laba_3\Debug\toha_laba_3.map</FILE>
+  <FILE>D:\Coding\MPS\asm\toha_laba_3\toha_laba_3\Debug\toha_laba_3.lss</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <_reset><FILE>D:\Coding\MPS\asm\toha_laba_3\toha_laba_3\toha_laba_3.asm</FILE><LINE>25</LINE></_reset>
+  <USART_RXC><FILE>D:\Coding\MPS\asm\toha_laba_3\toha_laba_3\toha_laba_3.asm</FILE><LINE>144</LINE></USART_RXC>
+  <array><FILE>D:\Coding\MPS\asm\toha_laba_3\toha_laba_3\toha_laba_3.asm</FILE><LINE>20</LINE></array>
+  <trueStr><FILE>D:\Coding\MPS\asm\toha_laba_3\toha_laba_3\toha_laba_3.asm</FILE><LINE>22</LINE></trueStr>
+  <falseStr><FILE>D:\Coding\MPS\asm\toha_laba_3\toha_laba_3\toha_laba_3.asm</FILE><LINE>23</LINE></falseStr>
+  <_r_main><FILE>D:\Coding\MPS\asm\toha_laba_3\toha_laba_3\toha_laba_3.asm</FILE><LINE>47</LINE></_r_main>
+  <_main><FILE>D:\Coding\MPS\asm\toha_laba_3\toha_laba_3\toha_laba_3.asm</FILE><LINE>55</LINE></_main>
+  <_handler><FILE>D:\Coding\MPS\asm\toha_laba_3\toha_laba_3\toha_laba_3.asm</FILE><LINE>59</LINE></_handler>
+  <_result><FILE>D:\Coding\MPS\asm\toha_laba_3\toha_laba_3\toha_laba_3.asm</FILE><LINE>93</LINE></_result>
+  <_first_char><FILE>D:\Coding\MPS\asm\toha_laba_3\toha_laba_3\toha_laba_3.asm</FILE><LINE>74</LINE></_first_char>
+  <_seven_char><FILE>D:\Coding\MPS\asm\toha_laba_3\toha_laba_3\toha_laba_3.asm</FILE><LINE>81</LINE></_seven_char>
+  <_inc><FILE>D:\Coding\MPS\asm\toha_laba_3\toha_laba_3\toha_laba_3.asm</FILE><LINE>88</LINE></_inc>
+  <_true_1><FILE>D:\Coding\MPS\asm\toha_laba_3\toha_laba_3\toha_laba_3.asm</FILE><LINE>99</LINE></_true_1>
+  <_false><FILE>D:\Coding\MPS\asm\toha_laba_3\toha_laba_3\toha_laba_3.asm</FILE><LINE>115</LINE></_false>
+  <_true><FILE>D:\Coding\MPS\asm\toha_laba_3\toha_laba_3\toha_laba_3.asm</FILE><LINE>104</LINE></_true>
+  <_m_t><FILE>D:\Coding\MPS\asm\toha_laba_3\toha_laba_3\toha_laba_3.asm</FILE><LINE>107</LINE></_m_t>
+  <_puts_end><FILE>D:\Coding\MPS\asm\toha_laba_3\toha_laba_3\toha_laba_3.asm</FILE><LINE>125</LINE></_puts_end>
+  <_uart><FILE>D:\Coding\MPS\asm\toha_laba_3\toha_laba_3\toha_laba_3.asm</FILE><LINE>137</LINE></_uart>
+  <_m_f><FILE>D:\Coding\MPS\asm\toha_laba_3\toha_laba_3\toha_laba_3.asm</FILE><LINE>118</LINE></_m_f>
+ </LABELS>
+</ASSEMBLER_INFO>

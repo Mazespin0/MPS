@@ -1,0 +1,36 @@
+<ASSEMBLER_INFO>
+ <VERSION>2.1.51</VERSION>
+ <DEVICE>"ATmega16"</DEVICE>
+ <WORKING_DIR>D:\Coding\MPS\asm\egor_3_laba\egor_3_laba\Debug</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>C:\Program Files (x86)\Atmel\AVR Studio 5.1\extensions\Atmel\AVRAssembler\2.1.51.17\AvrAssembler/Include</DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>D:\Coding\MPS\asm\egor_3_laba\egor_3_laba\egor_3_laba.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+  <FILE>C:\Program Files (x86)\Atmel\AVR Studio 5.1\extensions\Atmel\AVRAssembler\2.1.51.17\AvrAssembler/Include\m16def.inc</FILE>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>D:\Coding\MPS\asm\egor_3_laba\egor_3_laba\Debug/egor_3_laba.obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>D:\Coding\MPS\asm\egor_3_laba\egor_3_laba\Debug/egor_3_laba.hex</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>D:\Coding\MPS\asm\egor_3_laba\egor_3_laba\Debug\egor_3_laba.map</FILE>
+  <FILE>D:\Coding\MPS\asm\egor_3_laba\egor_3_laba\Debug\egor_3_laba.lss</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <_reset><FILE>D:\Coding\MPS\asm\egor_3_laba\egor_3_laba\egor_3_laba.asm</FILE><LINE>20</LINE></_reset>
+  <array><FILE>D:\Coding\MPS\asm\egor_3_laba\egor_3_laba\egor_3_laba.asm</FILE><LINE>18</LINE></array>
+  <_main><FILE>D:\Coding\MPS\asm\egor_3_laba\egor_3_laba\egor_3_laba.asm</FILE><LINE>42</LINE></_main>
+  <_delay><FILE>D:\Coding\MPS\asm\egor_3_laba\egor_3_laba\egor_3_laba.asm</FILE><LINE>145</LINE></_delay>
+  <_pins_handler><FILE>D:\Coding\MPS\asm\egor_3_laba\egor_3_laba\egor_3_laba.asm</FILE><LINE>58</LINE></_pins_handler>
+  <_puts><FILE>D:\Coding\MPS\asm\egor_3_laba\egor_3_laba\egor_3_laba.asm</FILE><LINE>101</LINE></_puts>
+  <_uart><FILE>D:\Coding\MPS\asm\egor_3_laba\egor_3_laba\egor_3_laba.asm</FILE><LINE>138</LINE></_uart>
+  <_puts_1><FILE>D:\Coding\MPS\asm\egor_3_laba\egor_3_laba\egor_3_laba.asm</FILE><LINE>105</LINE></_puts_1>
+  <_puts_end><FILE>D:\Coding\MPS\asm\egor_3_laba\egor_3_laba\egor_3_laba.asm</FILE><LINE>113</LINE></_puts_end>
+  <WGLOOP0><FILE>D:\Coding\MPS\asm\egor_3_laba\egor_3_laba\egor_3_laba.asm</FILE><LINE>147</LINE></WGLOOP0>
+  <WGLOOP1><FILE>D:\Coding\MPS\asm\egor_3_laba\egor_3_laba\egor_3_laba.asm</FILE><LINE>148</LINE></WGLOOP1>
+  <WGLOOP2><FILE>D:\Coding\MPS\asm\egor_3_laba\egor_3_laba\egor_3_laba.asm</FILE><LINE>149</LINE></WGLOOP2>
+ </LABELS>
+</ASSEMBLER_INFO>

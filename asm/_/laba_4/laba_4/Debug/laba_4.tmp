@@ -1,0 +1,30 @@
+<ASSEMBLER_INFO>
+ <VERSION>2.1.51</VERSION>
+ <DEVICE>"ATmega16"</DEVICE>
+ <WORKING_DIR>D:\Coding\Assembler\MPS\laba_4\laba_4\Debug</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>C:\Program Files (x86)\Atmel\AVR Studio 5.1\extensions\Atmel\AVRAssembler\2.1.51.17\AvrAssembler/Include</DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>D:\Coding\Assembler\MPS\laba_4\laba_4\laba_4.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+  <FILE>C:\Program Files (x86)\Atmel\AVR Studio 5.1\extensions\Atmel\AVRAssembler\2.1.51.17\AvrAssembler/Include\m16def.inc</FILE>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>D:\Coding\Assembler\MPS\laba_4\laba_4\Debug/laba_4.obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>D:\Coding\Assembler\MPS\laba_4\laba_4\Debug/laba_4.hex</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>D:\Coding\Assembler\MPS\laba_4\laba_4\Debug\laba_4.map</FILE>
+  <FILE>D:\Coding\Assembler\MPS\laba_4\laba_4\Debug\laba_4.lss</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <_reset><FILE>D:\Coding\Assembler\MPS\laba_4\laba_4\laba_4.asm</FILE><LINE>30</LINE></_reset>
+  <TIM1_OVF><FILE>D:\Coding\Assembler\MPS\laba_4\laba_4\laba_4.asm</FILE><LINE>87</LINE></TIM1_OVF>
+  <_main><FILE>D:\Coding\Assembler\MPS\laba_4\laba_4\laba_4.asm</FILE><LINE>62</LINE></_main>
+  <_uart_send><FILE>D:\Coding\Assembler\MPS\laba_4\laba_4\laba_4.asm</FILE><LINE>67</LINE></_uart_send>
+  <_handler><FILE>D:\Coding\Assembler\MPS\laba_4\laba_4\laba_4.asm</FILE><LINE>76</LINE></_handler>
+  <_m><FILE>D:\Coding\Assembler\MPS\laba_4\laba_4\laba_4.asm</FILE><LINE>84</LINE></_m>
+ </LABELS>
+</ASSEMBLER_INFO>

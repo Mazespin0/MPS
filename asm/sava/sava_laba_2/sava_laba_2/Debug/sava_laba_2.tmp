@@ -1,0 +1,35 @@
+<ASSEMBLER_INFO>
+ <VERSION>2.1.51</VERSION>
+ <DEVICE>"ATmega16"</DEVICE>
+ <WORKING_DIR>D:\Coding\Assembler\MPS\sava_laba_2\sava_laba_2\Debug</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>C:\Program Files (x86)\Atmel\AVR Studio 5.1\extensions\Atmel\AVRAssembler\2.1.51.17\AvrAssembler/Include</DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>D:\Coding\Assembler\MPS\sava_laba_2\sava_laba_2\sava_laba_2.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+  <FILE>C:\Program Files (x86)\Atmel\AVR Studio 5.1\extensions\Atmel\AVRAssembler\2.1.51.17\AvrAssembler/Include\m16def.inc</FILE>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>D:\Coding\Assembler\MPS\sava_laba_2\sava_laba_2\Debug/sava_laba_2.obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>D:\Coding\Assembler\MPS\sava_laba_2\sava_laba_2\Debug/sava_laba_2.hex</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>D:\Coding\Assembler\MPS\sava_laba_2\sava_laba_2\Debug\sava_laba_2.map</FILE>
+  <FILE>D:\Coding\Assembler\MPS\sava_laba_2\sava_laba_2\Debug\sava_laba_2.lss</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <_reset><FILE>D:\Coding\Assembler\MPS\sava_laba_2\sava_laba_2\sava_laba_2.asm</FILE><LINE>12</LINE></_reset>
+  <_main><FILE>D:\Coding\Assembler\MPS\sava_laba_2\sava_laba_2\sava_laba_2.asm</FILE><LINE>24</LINE></_main>
+  <_handler_up><FILE>D:\Coding\Assembler\MPS\sava_laba_2\sava_laba_2\sava_laba_2.asm</FILE><LINE>31</LINE></_handler_up>
+  <_handler_down><FILE>D:\Coding\Assembler\MPS\sava_laba_2\sava_laba_2\sava_laba_2.asm</FILE><LINE>51</LINE></_handler_down>
+  <_plus><FILE>D:\Coding\Assembler\MPS\sava_laba_2\sava_laba_2\sava_laba_2.asm</FILE><LINE>44</LINE></_plus>
+  <_delay><FILE>D:\Coding\Assembler\MPS\sava_laba_2\sava_laba_2\sava_laba_2.asm</FILE><LINE>76</LINE></_delay>
+  <_min><FILE>D:\Coding\Assembler\MPS\sava_laba_2\sava_laba_2\sava_laba_2.asm</FILE><LINE>65</LINE></_min>
+  <_minus><FILE>D:\Coding\Assembler\MPS\sava_laba_2\sava_laba_2\sava_laba_2.asm</FILE><LINE>70</LINE></_minus>
+  <WGLOOP0><FILE>D:\Coding\Assembler\MPS\sava_laba_2\sava_laba_2\sava_laba_2.asm</FILE><LINE>78</LINE></WGLOOP0>
+  <WGLOOP1><FILE>D:\Coding\Assembler\MPS\sava_laba_2\sava_laba_2\sava_laba_2.asm</FILE><LINE>79</LINE></WGLOOP1>
+  <WGLOOP2><FILE>D:\Coding\Assembler\MPS\sava_laba_2\sava_laba_2\sava_laba_2.asm</FILE><LINE>80</LINE></WGLOOP2>
+ </LABELS>
+</ASSEMBLER_INFO>

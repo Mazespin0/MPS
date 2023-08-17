@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# AvrStudio Solution File, Format Version 11.00
+Project("{18226A42-8477-4023-8AD2-40C49DA407C9}") = "Dasha3_2", "Dasha3_2\Dasha3_2.asmproj", "{CC1AB6C8-E773-4F9D-85D7-6C9D609CF901}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|AVR = Debug|AVR
+		Release|AVR = Release|AVR
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CC1AB6C8-E773-4F9D-85D7-6C9D609CF901}.Debug|AVR.ActiveCfg = Debug|AVR
+		{CC1AB6C8-E773-4F9D-85D7-6C9D609CF901}.Debug|AVR.Build.0 = Debug|AVR
+		{CC1AB6C8-E773-4F9D-85D7-6C9D609CF901}.Release|AVR.ActiveCfg = Release|AVR
+		{CC1AB6C8-E773-4F9D-85D7-6C9D609CF901}.Release|AVR.Build.0 = Release|AVR
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

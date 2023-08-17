@@ -1,0 +1,36 @@
+<ASSEMBLER_INFO>
+ <VERSION>2.1.51</VERSION>
+ <DEVICE>"ATmega16"</DEVICE>
+ <WORKING_DIR>D:\Coding\MPS\asm\egor_laba_4\egor_laba_4\Debug</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>C:\Program Files (x86)\Atmel\AVR Studio 5.1\extensions\Atmel\AVRAssembler\2.1.51.17\AvrAssembler/Include</DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>D:\Coding\MPS\asm\egor_laba_4\egor_laba_4\egor_laba_4.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+  <FILE>C:\Program Files (x86)\Atmel\AVR Studio 5.1\extensions\Atmel\AVRAssembler\2.1.51.17\AvrAssembler/Include\m16def.inc</FILE>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>D:\Coding\MPS\asm\egor_laba_4\egor_laba_4\Debug/egor_laba_4.obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>D:\Coding\MPS\asm\egor_laba_4\egor_laba_4\Debug/egor_laba_4.hex</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>D:\Coding\MPS\asm\egor_laba_4\egor_laba_4\Debug\egor_laba_4.map</FILE>
+  <FILE>D:\Coding\MPS\asm\egor_laba_4\egor_laba_4\Debug\egor_laba_4.lss</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <_reset><FILE>D:\Coding\MPS\asm\egor_laba_4\egor_laba_4\egor_laba_4.asm</FILE><LINE>25</LINE></_reset>
+  <EXT_INT0><FILE>D:\Coding\MPS\asm\egor_laba_4\egor_laba_4\egor_laba_4.asm</FILE><LINE>78</LINE></EXT_INT0>
+  <TIM1_OVF><FILE>D:\Coding\MPS\asm\egor_laba_4\egor_laba_4\egor_laba_4.asm</FILE><LINE>93</LINE></TIM1_OVF>
+  <_main_r><FILE>D:\Coding\MPS\asm\egor_laba_4\egor_laba_4\egor_laba_4.asm</FILE><LINE>52</LINE></_main_r>
+  <_delay><FILE>D:\Coding\MPS\asm\egor_laba_4\egor_laba_4\egor_laba_4.asm</FILE><LINE>117</LINE></_delay>
+  <_main><FILE>D:\Coding\MPS\asm\egor_laba_4\egor_laba_4\egor_laba_4.asm</FILE><LINE>63</LINE></_main>
+  <_handler><FILE>D:\Coding\MPS\asm\egor_laba_4\egor_laba_4\egor_laba_4.asm</FILE><LINE>66</LINE></_handler>
+  <_uart_send><FILE>D:\Coding\MPS\asm\egor_laba_4\egor_laba_4\egor_laba_4.asm</FILE><LINE>71</LINE></_uart_send>
+  <_count1><FILE>D:\Coding\MPS\asm\egor_laba_4\egor_laba_4\egor_laba_4.asm</FILE><LINE>111</LINE></_count1>
+  <_m><FILE>D:\Coding\MPS\asm\egor_laba_4\egor_laba_4\egor_laba_4.asm</FILE><LINE>101</LINE></_m>
+  <WGLOOP0><FILE>D:\Coding\MPS\asm\egor_laba_4\egor_laba_4\egor_laba_4.asm</FILE><LINE>119</LINE></WGLOOP0>
+  <WGLOOP1><FILE>D:\Coding\MPS\asm\egor_laba_4\egor_laba_4\egor_laba_4.asm</FILE><LINE>120</LINE></WGLOOP1>
+ </LABELS>
+</ASSEMBLER_INFO>

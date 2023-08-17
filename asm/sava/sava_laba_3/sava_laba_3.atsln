@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# AvrStudio Solution File, Format Version 11.00
+Project("{18226A42-8477-4023-8AD2-40C49DA407C9}") = "sava_laba_3", "sava_laba_3\sava_laba_3.asmproj", "{E9BB8699-FC52-4319-8A81-ABF6E61E2102}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|AVR = Debug|AVR
+		Release|AVR = Release|AVR
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E9BB8699-FC52-4319-8A81-ABF6E61E2102}.Debug|AVR.ActiveCfg = Debug|AVR
+		{E9BB8699-FC52-4319-8A81-ABF6E61E2102}.Debug|AVR.Build.0 = Debug|AVR
+		{E9BB8699-FC52-4319-8A81-ABF6E61E2102}.Release|AVR.ActiveCfg = Release|AVR
+		{E9BB8699-FC52-4319-8A81-ABF6E61E2102}.Release|AVR.Build.0 = Release|AVR
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# AvrStudio Solution File, Format Version 11.00
+Project("{18226A42-8477-4023-8AD2-40C49DA407C9}") = "toha_laba_3", "toha_laba_3\toha_laba_3.asmproj", "{FCF02410-7EFE-4668-AF40-297C5C542ABA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|AVR = Debug|AVR
+		Release|AVR = Release|AVR
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FCF02410-7EFE-4668-AF40-297C5C542ABA}.Debug|AVR.ActiveCfg = Debug|AVR
+		{FCF02410-7EFE-4668-AF40-297C5C542ABA}.Debug|AVR.Build.0 = Debug|AVR
+		{FCF02410-7EFE-4668-AF40-297C5C542ABA}.Release|AVR.ActiveCfg = Release|AVR
+		{FCF02410-7EFE-4668-AF40-297C5C542ABA}.Release|AVR.Build.0 = Release|AVR
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

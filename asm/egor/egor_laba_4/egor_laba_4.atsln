@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# AvrStudio Solution File, Format Version 11.00
+Project("{18226A42-8477-4023-8AD2-40C49DA407C9}") = "egor_laba_4", "egor_laba_4\egor_laba_4.asmproj", "{008A2094-7B8D-44E4-92BA-70E568F1F7FC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|AVR = Debug|AVR
+		Release|AVR = Release|AVR
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{008A2094-7B8D-44E4-92BA-70E568F1F7FC}.Debug|AVR.ActiveCfg = Debug|AVR
+		{008A2094-7B8D-44E4-92BA-70E568F1F7FC}.Debug|AVR.Build.0 = Debug|AVR
+		{008A2094-7B8D-44E4-92BA-70E568F1F7FC}.Release|AVR.ActiveCfg = Release|AVR
+		{008A2094-7B8D-44E4-92BA-70E568F1F7FC}.Release|AVR.Build.0 = Release|AVR
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

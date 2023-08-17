@@ -1,0 +1,29 @@
+<ASSEMBLER_INFO>
+ <VERSION>2.1.51</VERSION>
+ <DEVICE>"ATmega16"</DEVICE>
+ <WORKING_DIR>D:\Coding\Assembler\MPS\lab1\lab1\Debug</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>C:\Program Files (x86)\Atmel\AVR Studio 5.1\extensions\Atmel\AVRAssembler\2.1.51.17\AvrAssembler/Include</DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>D:\Coding\Assembler\MPS\lab1\lab1\lab1.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+  <FILE>C:\Program Files (x86)\Atmel\AVR Studio 5.1\extensions\Atmel\AVRAssembler\2.1.51.17\AvrAssembler/Include\m16def.inc</FILE>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>D:\Coding\Assembler\MPS\lab1\lab1\Debug/lab1.obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>D:\Coding\Assembler\MPS\lab1\lab1\Debug/lab1.hex</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>D:\Coding\Assembler\MPS\lab1\lab1\Debug\lab1.map</FILE>
+  <FILE>D:\Coding\Assembler\MPS\lab1\lab1\Debug\lab1.lss</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <_main><FILE>D:\Coding\Assembler\MPS\lab1\lab1\lab1.asm</FILE><LINE>11</LINE></_main>
+  <_250_ms><FILE>D:\Coding\Assembler\MPS\lab1\lab1\lab1.asm</FILE><LINE>18</LINE></_250_ms>
+  <WGLOOP0><FILE>D:\Coding\Assembler\MPS\lab1\lab1\lab1.asm</FILE><LINE>20</LINE></WGLOOP0>
+  <WGLOOP1><FILE>D:\Coding\Assembler\MPS\lab1\lab1\lab1.asm</FILE><LINE>21</LINE></WGLOOP1>
+  <WGLOOP2><FILE>D:\Coding\Assembler\MPS\lab1\lab1\lab1.asm</FILE><LINE>22</LINE></WGLOOP2>
+ </LABELS>
+</ASSEMBLER_INFO>

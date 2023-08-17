@@ -1,0 +1,43 @@
+<ASSEMBLER_INFO>
+ <VERSION>2.1.51</VERSION>
+ <DEVICE>"ATmega16"</DEVICE>
+ <WORKING_DIR>D:\Coding\Assembler\MPS\sava_laba_3\sava_laba_3\Debug</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>C:\Program Files (x86)\Atmel\AVR Studio 5.1\extensions\Atmel\AVRAssembler\2.1.51.17\AvrAssembler/Include</DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>D:\Coding\Assembler\MPS\sava_laba_3\sava_laba_3\sava_laba_3.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+  <FILE>C:\Program Files (x86)\Atmel\AVR Studio 5.1\extensions\Atmel\AVRAssembler\2.1.51.17\AvrAssembler/Include\m16def.inc</FILE>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>D:\Coding\Assembler\MPS\sava_laba_3\sava_laba_3\Debug/sava_laba_3.obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>D:\Coding\Assembler\MPS\sava_laba_3\sava_laba_3\Debug/sava_laba_3.hex</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>D:\Coding\Assembler\MPS\sava_laba_3\sava_laba_3\Debug\sava_laba_3.map</FILE>
+  <FILE>D:\Coding\Assembler\MPS\sava_laba_3\sava_laba_3\Debug\sava_laba_3.lss</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <_reset><FILE>D:\Coding\Assembler\MPS\sava_laba_3\sava_laba_3\sava_laba_3.asm</FILE><LINE>28</LINE></_reset>
+  <USART_RXC><FILE>D:\Coding\Assembler\MPS\sava_laba_3\sava_laba_3\sava_laba_3.asm</FILE><LINE>119</LINE></USART_RXC>
+  <arrayLetters><FILE>D:\Coding\Assembler\MPS\sava_laba_3\sava_laba_3\sava_laba_3.asm</FILE><LINE>25</LINE></arrayLetters>
+  <arrayNumbers><FILE>D:\Coding\Assembler\MPS\sava_laba_3\sava_laba_3\sava_laba_3.asm</FILE><LINE>26</LINE></arrayNumbers>
+  <_main><FILE>D:\Coding\Assembler\MPS\sava_laba_3\sava_laba_3\sava_laba_3.asm</FILE><LINE>48</LINE></_main>
+  <_handler><FILE>D:\Coding\Assembler\MPS\sava_laba_3\sava_laba_3\sava_laba_3.asm</FILE><LINE>51</LINE></_handler>
+  <_rhandlerLatters><FILE>D:\Coding\Assembler\MPS\sava_laba_3\sava_laba_3\sava_laba_3.asm</FILE><LINE>77</LINE></_rhandlerLatters>
+  <_rhandlerNumbers><FILE>D:\Coding\Assembler\MPS\sava_laba_3\sava_laba_3\sava_laba_3.asm</FILE><LINE>90</LINE></_rhandlerNumbers>
+  <_error><FILE>D:\Coding\Assembler\MPS\sava_laba_3\sava_laba_3\sava_laba_3.asm</FILE><LINE>59</LINE></_error>
+  <_led_error><FILE>D:\Coding\Assembler\MPS\sava_laba_3\sava_laba_3\sava_laba_3.asm</FILE><LINE>60</LINE></_led_error>
+  <_delay><FILE>D:\Coding\Assembler\MPS\sava_laba_3\sava_laba_3\sava_laba_3.asm</FILE><LINE>132</LINE></_delay>
+  <_handlerLatters><FILE>D:\Coding\Assembler\MPS\sava_laba_3\sava_laba_3\sava_laba_3.asm</FILE><LINE>81</LINE></_handlerLatters>
+  <_m><FILE>D:\Coding\Assembler\MPS\sava_laba_3\sava_laba_3\sava_laba_3.asm</FILE><LINE>103</LINE></_m>
+  <_ledLetters><FILE>D:\Coding\Assembler\MPS\sava_laba_3\sava_laba_3\sava_laba_3.asm</FILE><LINE>106</LINE></_ledLetters>
+  <_handlerNumbers><FILE>D:\Coding\Assembler\MPS\sava_laba_3\sava_laba_3\sava_laba_3.asm</FILE><LINE>94</LINE></_handlerNumbers>
+  <_ledNumbers><FILE>D:\Coding\Assembler\MPS\sava_laba_3\sava_laba_3\sava_laba_3.asm</FILE><LINE>112</LINE></_ledNumbers>
+  <_500_loop0><FILE>D:\Coding\Assembler\MPS\sava_laba_3\sava_laba_3\sava_laba_3.asm</FILE><LINE>134</LINE></_500_loop0>
+  <_500_loop1><FILE>D:\Coding\Assembler\MPS\sava_laba_3\sava_laba_3\sava_laba_3.asm</FILE><LINE>135</LINE></_500_loop1>
+  <_500_loop2><FILE>D:\Coding\Assembler\MPS\sava_laba_3\sava_laba_3\sava_laba_3.asm</FILE><LINE>136</LINE></_500_loop2>
+ </LABELS>
+</ASSEMBLER_INFO>

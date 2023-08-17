@@ -1,0 +1,43 @@
+<ASSEMBLER_INFO>
+ <VERSION>2.1.51</VERSION>
+ <DEVICE>"ATmega16"</DEVICE>
+ <WORKING_DIR>D:\Coding\MPS\asm\egor_laba_2\egor_laba_2\Debug</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>C:\Program Files (x86)\Atmel\AVR Studio 5.1\extensions\Atmel\AVRAssembler\2.1.51.17\AvrAssembler/Include</DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>D:\Coding\MPS\asm\egor_laba_2\egor_laba_2\egor_laba_2.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+  <FILE>C:\Program Files (x86)\Atmel\AVR Studio 5.1\extensions\Atmel\AVRAssembler\2.1.51.17\AvrAssembler/Include\m16def.inc</FILE>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>D:\Coding\MPS\asm\egor_laba_2\egor_laba_2\Debug/egor_laba_2.obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>D:\Coding\MPS\asm\egor_laba_2\egor_laba_2\Debug/egor_laba_2.hex</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>D:\Coding\MPS\asm\egor_laba_2\egor_laba_2\Debug\egor_laba_2.map</FILE>
+  <FILE>D:\Coding\MPS\asm\egor_laba_2\egor_laba_2\Debug\egor_laba_2.lss</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <_reset><FILE>D:\Coding\MPS\asm\egor_laba_2\egor_laba_2\egor_laba_2.asm</FILE><LINE>39</LINE></_reset>
+  <INT0I><FILE>D:\Coding\MPS\asm\egor_laba_2\egor_laba_2\egor_laba_2.asm</FILE><LINE>162</LINE></INT0I>
+  <INT1I><FILE>D:\Coding\MPS\asm\egor_laba_2\egor_laba_2\egor_laba_2.asm</FILE><LINE>177</LINE></INT1I>
+  <_main><FILE>D:\Coding\MPS\asm\egor_laba_2\egor_laba_2\egor_laba_2.asm</FILE><LINE>69</LINE></_main>
+  <_readButtons><FILE>D:\Coding\MPS\asm\egor_laba_2\egor_laba_2\egor_laba_2.asm</FILE><LINE>80</LINE></_readButtons>
+  <_effect_1><FILE>D:\Coding\MPS\asm\egor_laba_2\egor_laba_2\egor_laba_2.asm</FILE><LINE>109</LINE></_effect_1>
+  <_effect_2><FILE>D:\Coding\MPS\asm\egor_laba_2\egor_laba_2\egor_laba_2.asm</FILE><LINE>124</LINE></_effect_2>
+  <_effect_3><FILE>D:\Coding\MPS\asm\egor_laba_2\egor_laba_2\egor_laba_2.asm</FILE><LINE>135</LINE></_effect_3>
+  <_m><FILE>D:\Coding\MPS\asm\egor_laba_2\egor_laba_2\egor_laba_2.asm</FILE><LINE>93</LINE></_m>
+  <_effect_up><FILE>D:\Coding\MPS\asm\egor_laba_2\egor_laba_2\egor_laba_2.asm</FILE><LINE>96</LINE></_effect_up>
+  <_effect_down><FILE>D:\Coding\MPS\asm\egor_laba_2\egor_laba_2\egor_laba_2.asm</FILE><LINE>102</LINE></_effect_down>
+  <_100ms><FILE>D:\Coding\MPS\asm\egor_laba_2\egor_laba_2\egor_laba_2.asm</FILE><LINE>149</LINE></_100ms>
+  <_m1><FILE>D:\Coding\MPS\asm\egor_laba_2\egor_laba_2\egor_laba_2.asm</FILE><LINE>119</LINE></_m1>
+  <_m3><FILE>D:\Coding\MPS\asm\egor_laba_2\egor_laba_2\egor_laba_2.asm</FILE><LINE>145</LINE></_m3>
+  <_100ms_loop0><FILE>D:\Coding\MPS\asm\egor_laba_2\egor_laba_2\egor_laba_2.asm</FILE><LINE>152</LINE></_100ms_loop0>
+  <_100ms_loop1><FILE>D:\Coding\MPS\asm\egor_laba_2\egor_laba_2\egor_laba_2.asm</FILE><LINE>153</LINE></_100ms_loop1>
+  <_100ms_loop2><FILE>D:\Coding\MPS\asm\egor_laba_2\egor_laba_2\egor_laba_2.asm</FILE><LINE>154</LINE></_100ms_loop2>
+  <_m_up><FILE>D:\Coding\MPS\asm\egor_laba_2\egor_laba_2\egor_laba_2.asm</FILE><LINE>173</LINE></_m_up>
+  <_m_down><FILE>D:\Coding\MPS\asm\egor_laba_2\egor_laba_2\egor_laba_2.asm</FILE><LINE>188</LINE></_m_down>
+ </LABELS>
+</ASSEMBLER_INFO>

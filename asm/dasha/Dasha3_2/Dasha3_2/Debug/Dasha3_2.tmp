@@ -1,0 +1,35 @@
+<ASSEMBLER_INFO>
+ <VERSION>2.1.51</VERSION>
+ <DEVICE>"ATmega16"</DEVICE>
+ <WORKING_DIR>D:\Coding\Assembler\MPS\Dasha3_2\Dasha3_2\Debug</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>C:\Program Files (x86)\Atmel\AVR Studio 5.1\extensions\Atmel\AVRAssembler\2.1.51.17\AvrAssembler/Include</DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>D:\Coding\Assembler\MPS\Dasha3_2\Dasha3_2\Dasha3_2.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+  <FILE>C:\Program Files (x86)\Atmel\AVR Studio 5.1\extensions\Atmel\AVRAssembler\2.1.51.17\AvrAssembler/Include\m16def.inc</FILE>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>D:\Coding\Assembler\MPS\Dasha3_2\Dasha3_2\Debug/Dasha3_2.obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>D:\Coding\Assembler\MPS\Dasha3_2\Dasha3_2\Debug/Dasha3_2.hex</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>D:\Coding\Assembler\MPS\Dasha3_2\Dasha3_2\Debug\Dasha3_2.map</FILE>
+  <FILE>D:\Coding\Assembler\MPS\Dasha3_2\Dasha3_2\Debug\Dasha3_2.lss</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <_reset><FILE>D:\Coding\Assembler\MPS\Dasha3_2\Dasha3_2\Dasha3_2.asm</FILE><LINE>16</LINE></_reset>
+  <USART_RXC><FILE>D:\Coding\Assembler\MPS\Dasha3_2\Dasha3_2\Dasha3_2.asm</FILE><LINE>85</LINE></USART_RXC>
+  <USART_TXC><FILE>D:\Coding\Assembler\MPS\Dasha3_2\Dasha3_2\Dasha3_2.asm</FILE><LINE>98</LINE></USART_TXC>
+  <_main><FILE>D:\Coding\Assembler\MPS\Dasha3_2\Dasha3_2\Dasha3_2.asm</FILE><LINE>36</LINE></_main>
+  <_handler><FILE>D:\Coding\Assembler\MPS\Dasha3_2\Dasha3_2\Dasha3_2.asm</FILE><LINE>39</LINE></_handler>
+  <_led_on><FILE>D:\Coding\Assembler\MPS\Dasha3_2\Dasha3_2\Dasha3_2.asm</FILE><LINE>63</LINE></_led_on>
+  <_led_error><FILE>D:\Coding\Assembler\MPS\Dasha3_2\Dasha3_2\Dasha3_2.asm</FILE><LINE>68</LINE></_led_error>
+  <_delay><FILE>D:\Coding\Assembler\MPS\Dasha3_2\Dasha3_2\Dasha3_2.asm</FILE><LINE>107</LINE></_delay>
+  <_1k_loop0><FILE>D:\Coding\Assembler\MPS\Dasha3_2\Dasha3_2\Dasha3_2.asm</FILE><LINE>109</LINE></_1k_loop0>
+  <_1k_loop1><FILE>D:\Coding\Assembler\MPS\Dasha3_2\Dasha3_2\Dasha3_2.asm</FILE><LINE>110</LINE></_1k_loop1>
+  <_1k_loop2><FILE>D:\Coding\Assembler\MPS\Dasha3_2\Dasha3_2\Dasha3_2.asm</FILE><LINE>111</LINE></_1k_loop2>
+ </LABELS>
+</ASSEMBLER_INFO>
