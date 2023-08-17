@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# AvrStudio Solution File, Format Version 11.00
+Project("{18226A42-8477-4023-8AD2-40C49DA407C9}") = "pank_laba_4", "pank_laba_4\pank_laba_4.asmproj", "{3EA385B0-04EC-400D-B4A3-EC929F841675}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|AVR = Debug|AVR
+		Release|AVR = Release|AVR
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3EA385B0-04EC-400D-B4A3-EC929F841675}.Debug|AVR.ActiveCfg = Debug|AVR
+		{3EA385B0-04EC-400D-B4A3-EC929F841675}.Debug|AVR.Build.0 = Debug|AVR
+		{3EA385B0-04EC-400D-B4A3-EC929F841675}.Release|AVR.ActiveCfg = Release|AVR
+		{3EA385B0-04EC-400D-B4A3-EC929F841675}.Release|AVR.Build.0 = Release|AVR
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
