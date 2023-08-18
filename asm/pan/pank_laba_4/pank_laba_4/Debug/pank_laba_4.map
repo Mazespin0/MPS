@@ -1,5 +1,5 @@
 
-AVRASM ver. 2.1.51  D:\Coding\MPS\asm\pan\pank_laba_4\pank_laba_4\pank_laba_4.asm Thu Aug 17 18:47:24 2023
+AVRASM ver. 2.1.51  D:\Coding\MPS\asm\pan\pank_laba_4\pank_laba_4\pank_laba_4.asm Fri Aug 18 13:33:47 2023
 
 
 EQU  SIGNATURE_000 0000001e
@@ -608,9 +608,9 @@ DEF  temp         r16
 DEF  duty         r20
 DEF  _duty        r21
 CSEG _reset       00000002
-CSEG _main        00000013
-CSEG _m           00000015
-CSEG _20_ms       00000023
-CSEG _m1          0000001c
-CSEG _20_loop0    00000024
-CSEG _20_loop1    00000025
+CSEG _main        00000012
+CSEG _m           00000014
+CSEG _20_ms       00000022
+CSEG _m1          0000001b
+CSEG _20_loop0    00000023
+CSEG _20_loop1    00000024

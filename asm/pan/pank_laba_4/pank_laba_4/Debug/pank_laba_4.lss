@@ -1,5 +1,5 @@
 
-AVRASM ver. 2.1.51  D:\Coding\MPS\asm\pan\pank_laba_4\pank_laba_4\pank_laba_4.asm Thu Aug 17 18:47:24 2023
+AVRASM ver. 2.1.51  D:\Coding\MPS\asm\pan\pank_laba_4\pank_laba_4\pank_laba_4.asm Fri Aug 18 13:33:47 2023
 
 [builtin](2): Including file 'C:\Program Files (x86)\Atmel\AVR Studio 5.1\extensions\Atmel\AVRAssembler\2.1.51.17\AvrAssembler/Include\m16def.inc'
 D:\Coding\MPS\asm\pan\pank_laba_4\pank_laba_4\pank_laba_4.asm(1): Including file 'C:\Program Files (x86)\Atmel\AVR Studio 5.1\extensions\Atmel\AVRAssembler\2.1.51.17\AvrAssembler/Include\m16def.inc'
@@ -942,42 +942,40 @@ D:\Coding\MPS\asm\pan\pank_laba_4\pank_laba_4\pank_laba_4.asm(1): Including file
 000010 e008      	ldi temp, (1 << 3);
 000011 bb07      	out DDRB, temp;
                  
-000012 9478      	sei;
-                 
                  _main:
-000013 e040      	ldi duty, 0;
-000014 ef5f      	ldi _duty, 255;
+000012 e040      	ldi duty, 0;
+000013 ef5f      	ldi _duty, 255;
                  	//rjmp _main;
                  _m:
-000015 d00d      	rcall _20_ms;
-000016 bf4c      	out OCR0, duty;
-000017 bd53      	out OCR2, _duty;
+000014 d00d      	rcall _20_ms;
+000015 bf4c      	out OCR0, duty;
+000016 bd53      	out OCR2, _duty;
                  
-000018 9543      	inc duty;
-000019 955a      	dec _duty;
+000017 9543      	inc duty;
+000018 955a      	dec _duty;
                  	
-00001a f009      	breq _m1;
-00001b cff9      	rjmp _m;
+000019 f009      	breq _m1;
+00001a cff9      	rjmp _m;
                  
                  _m1:
-00001c d006      	rcall _20_ms;
-00001d bf4c      	out OCR0, duty;
-00001e bd53      	out OCR2, _duty;
+00001b d006      	rcall _20_ms;
+00001c bf4c      	out OCR0, duty;
+00001d bd53      	out OCR2, _duty;
                  
-00001f 9553      	inc _duty;
-000020 954a      	dec duty;
+00001e 9553      	inc _duty;
+00001f 954a      	dec duty;
                  
-000021 f389      	breq _main;
-000022 cff9      	rjmp _m1;
+000020 f389      	breq _main;
+000021 cff9      	rjmp _m1;
                  
                  _20_ms:
-000023 ee11      				ldi r17, 225; 
-000024 ee2c      	_20_loop0:	ldi r18, 236;
-000025 952a      	_20_loop1:	dec r18;
-000026 f7f1      				brne _20_loop1;
-000027 951a      				dec r17;
-000028 f7d9      				brne _20_loop0;
-000029 9508      				ret;
+000022 ee11      				ldi r17, 225; 
+000023 ee2c      	_20_loop0:	ldi r18, 236;
+000024 952a      	_20_loop1:	dec r18;
+000025 f7f1      				brne _20_loop1;
+000026 951a      				dec r17;
+000027 f7d9      				brne _20_loop0;
+000028 9508      				ret;
                  	
                  
                  
@@ -1024,15 +1022,15 @@ neg   :   0 nop   :   0 or    :   0 ori   :   0 out   :  12 pop   :   0
 push  :   0 rcall :   2 ret   :   1 reti  :   0 rjmp  :   2 rol   :   0 
 ror   :   0 sbc   :   0 sbci  :   0 sbi   :   0 sbic  :   0 sbis  :   0 
 sbiw  :   0 sbr   :   0 sbrc  :   0 sbrs  :   0 sec   :   0 seh   :   0 
-sei   :   1 sen   :   0 ser   :   0 ses   :   0 set   :   0 sev   :   0 
+sei   :   0 sen   :   0 ser   :   0 ses   :   0 set   :   0 sev   :   0 
 sez   :   0 sleep :   0 spm   :   0 st    :   0 std   :   0 sts   :   0 
 sub   :   0 subi  :   0 swap  :   0 tst   :   0 wdr   :   0 
-Instructions used: 11 out of 113 (9.7%)
+Instructions used: 10 out of 113 (8.8%)
 
 "ATmega16" memory use summary [bytes]:
 Segment   Begin    End      Code   Data   Used    Size   Use%
 ---------------------------------------------------------------
-[.cseg] 0x000000 0x000054     84      0     84   16384   0.5%
+[.cseg] 0x000000 0x000052     82      0     82   16384   0.5%
 [.dseg] 0x000060 0x000060      0      0      0    1024   0.0%
 [.eseg] 0x000000 0x000000      0      0      0     512   0.0%
 

@@ -21,11 +21,11 @@
  </OUTPUT_FILES>
  <LABELS>
   <_reset><FILE>D:\Coding\MPS\asm\pan\pank_laba_4\pank_laba_4\pank_laba_4.asm</FILE><LINE>10</LINE></_reset>
-  <_main><FILE>D:\Coding\MPS\asm\pan\pank_laba_4\pank_laba_4\pank_laba_4.asm</FILE><LINE>33</LINE></_main>
-  <_m><FILE>D:\Coding\MPS\asm\pan\pank_laba_4\pank_laba_4\pank_laba_4.asm</FILE><LINE>37</LINE></_m>
-  <_20_ms><FILE>D:\Coding\MPS\asm\pan\pank_laba_4\pank_laba_4\pank_laba_4.asm</FILE><LINE>59</LINE></_20_ms>
-  <_m1><FILE>D:\Coding\MPS\asm\pan\pank_laba_4\pank_laba_4\pank_laba_4.asm</FILE><LINE>48</LINE></_m1>
-  <_20_loop0><FILE>D:\Coding\MPS\asm\pan\pank_laba_4\pank_laba_4\pank_laba_4.asm</FILE><LINE>61</LINE></_20_loop0>
-  <_20_loop1><FILE>D:\Coding\MPS\asm\pan\pank_laba_4\pank_laba_4\pank_laba_4.asm</FILE><LINE>62</LINE></_20_loop1>
+  <_main><FILE>D:\Coding\MPS\asm\pan\pank_laba_4\pank_laba_4\pank_laba_4.asm</FILE><LINE>31</LINE></_main>
+  <_m><FILE>D:\Coding\MPS\asm\pan\pank_laba_4\pank_laba_4\pank_laba_4.asm</FILE><LINE>35</LINE></_m>
+  <_20_ms><FILE>D:\Coding\MPS\asm\pan\pank_laba_4\pank_laba_4\pank_laba_4.asm</FILE><LINE>57</LINE></_20_ms>
+  <_m1><FILE>D:\Coding\MPS\asm\pan\pank_laba_4\pank_laba_4\pank_laba_4.asm</FILE><LINE>46</LINE></_m1>
+  <_20_loop0><FILE>D:\Coding\MPS\asm\pan\pank_laba_4\pank_laba_4\pank_laba_4.asm</FILE><LINE>59</LINE></_20_loop0>
+  <_20_loop1><FILE>D:\Coding\MPS\asm\pan\pank_laba_4\pank_laba_4\pank_laba_4.asm</FILE><LINE>60</LINE></_20_loop1>
  </LABELS>
 </ASSEMBLER_INFO>

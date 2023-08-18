@@ -28,8 +28,6 @@ _reset:
 	ldi temp, (1 << 3);
 	out DDRB, temp;
 
-	sei;
-
 _main:
 	ldi duty, 0;
 	ldi _duty, 255;
